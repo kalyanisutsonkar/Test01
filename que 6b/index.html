@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1 id="colorcode">hghgh</h1>
+            <button id="btn">click me</button>
+        </div>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Color</title>
+<script>
+  // Define an array of colors
+  const colors = ["red", "blue", "green", "yellow", "orange", "purple"];
+
+  // Function to return a random color from the colors array
+  function randomColor() {
+    return colors[Math.floor(Math.random() * colors.length)];
+  }
+</script>
+</head>
+<body>
+  <!-- Use the randomColor function to set the background color -->
+  <div style="background-color: <script>document.write(randomColor())</script>; padding: 20px;">
+    <!-- Content goes here -->
+    <h1>Hello, world!</h1>
+  </div>
+</body>
+</html>

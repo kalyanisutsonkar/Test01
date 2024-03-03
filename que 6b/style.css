@@ -1,0 +1,23 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+   background-color: #fff;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    width: 35%;
+    height: 45%;
+    background-color: white;
+    
+}

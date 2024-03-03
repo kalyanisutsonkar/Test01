@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat;
 }
 h2{
-    color: white;
+    color: white;display: flex;
 }
 span{
     color: orangered;
@@ -58,5 +58,16 @@ p{
 @media(max-width:500px){
     .container{
         width: 50%;
+        display: flex;flex-direction: column;
     }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+   .CENTER{
+    position: relative;
+    top: 23%;
+   }
+   
+
 }
