@@ -1,0 +1,62 @@
+*{
+  margin: 0;padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+   
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(training-828741_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color: white;
+}
+span{
+    color: orangered;
+}
+.container{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(171 166 166 / 23%);
+    color: transparent;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.singnup{
+    background-color: orangered;
+    height: 20%;
+}
+.CENTER{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 70%;
+    color: white;
+    gap: 20PX;
+}
+button{
+    background-color: orangered;
+    color: white;
+    height: 30px;
+    width: 200px;
+}
+p{
+    font-family: cursive;
+}
+@media(max-width:500px){
+    .container{
+        width: 50%;
+    }
+}

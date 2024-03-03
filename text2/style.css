@@ -1,0 +1,81 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.conatiner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.image{
+    height: 100%;
+    width: 50%;
+    background-image: url(Illustration-PNG-Free-Image.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.writing{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.524);
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.up{
+    text-align: left;
+  
+}
+h1{
+    position: absolute;
+    top: 80px;
+}
+h5{
+    position: absolute;
+    top: 120px;
+    color: rgb(200, 199, 199);
+}
+span{
+   text-decoration: underline;
+}
+input{
+    height: 30px;
+    width: 250px;
+}
+p{
+    gap: 10px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    position: relative;
+    top: 30px;
+}
+button{
+    height: 30px;
+    width: 250px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.524);
+}
+.new{
+    display: flex;
+}
+
+.checkbox{
+    width: 15px;
+    height: 15px;
+}
+p{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
